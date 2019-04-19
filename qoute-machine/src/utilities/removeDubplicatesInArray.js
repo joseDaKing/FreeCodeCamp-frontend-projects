@@ -1,0 +1,1 @@
+export const removeDubplicatesInArray = array => [...new Set(array)];
