@@ -1,0 +1,50 @@
+.tg-btn__checkbox {
+    display: none;
+}
+.tg-btn {
+    filter: grayscale(80%);
+    background-color: var(--primary);
+    padding: 1.08rem 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    width: 100%;
+    max-width: 5rem;
+    margin: auto;
+    margin-left: 0px;
+    position: relative;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.tg-btn__slider {
+    position: absolute;
+    display: block;
+
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0.025rem;
+
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: auto;
+    background-color: var(--white);
+    border-radius: 0.3rem;
+
+    transform: translateX(-100%);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.tg-btn__checkbox:checked + .tg-btn > .tg-btn__slider {
+    transform: translateX(100%);
+}
+
+.tg-btn__checkbox:checked + .tg-btn {
+    background-color: var(--primary);
+    filter: grayscale(0%);
+}
+
+.tg-btn__label {
+    display: block;
+    margin: auto;
+    margin-right: 0px;
+}

@@ -1,0 +1,9 @@
+.sound-viewer {
+    background-color: var(--primary);
+    border: none;
+    height: 3rem;;
+}
+
+.sound-viewer:hover, .sound-viewer:active {
+    background-color: var(--primary) !important;
+}
