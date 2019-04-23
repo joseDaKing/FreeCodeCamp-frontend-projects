@@ -4,4 +4,4 @@
 
 ## Build a Random Quote Machine
 
-The technologies used in this project are react, redux, redux-thunk and bootstrap.a
+The technologies used in this project are react, redux, redux-thunk and bootstrap.
